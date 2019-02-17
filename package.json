@@ -1,6 +1,6 @@
 {
   "name": "flash-player-loader-extra",
-  "version": "1.2.0.1",
+  "version": "1.2.1",
   "description": "Makes life easier for the electron apps which need the pepper flash player.",
   "main": "index.js",
   "directories": {
