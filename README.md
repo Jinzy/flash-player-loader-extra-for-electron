@@ -1,6 +1,6 @@
 # Flash Player Loader Extra (for electron apps)
 
-This is a fork from the [flash-player-loader](https://github.com/alvin-777/flash-player-loader-for-electron), matains extra changes.
+This repository forks from the [flash-player-loader](https://github.com/alvin-777/flash-player-loader-for-electron), matains extra changes.
 
 Makes life easier for the [electron](http://electron.atom.io/) apps which need the [Pepper Flash Player][1].
 
