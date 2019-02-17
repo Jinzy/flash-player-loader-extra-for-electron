@@ -1,4 +1,6 @@
-# Flash Player Loader (for electron apps)
+# Flash Player Loader Extra (for electron apps)
+
+This is a fork from the [flash-player-loader](https://github.com/alvin-777/flash-player-loader-for-electron), matains extra changes.
 
 Makes life easier for the [electron](http://electron.atom.io/) apps which need the [Pepper Flash Player][1].
 
@@ -12,9 +14,14 @@ More details can be found at
 ## Installation
 
 ```sh
-npm install --save flash-player-loader
+npm install --save flash-player-loader-extra
 ```
 
+## Debug
+Clone the flash-player-loader-extra project from github:
+```sh
+git clone https://github.com/Jinzy/flash-player-loader-extra-for-electron.git
+```
 To run the example app:
 ```
 cd /path/to/flash-player-loader
@@ -33,6 +40,9 @@ var flashLoader = require('flash-player-loader');
 var path = '/path/to/dir/contains/flash/player';
 flashLoader.addSource(path);
 flashLoader.addSource('/alternative/path');
+var versions = flashLoader.getAllChromeFlashVersions();
+console.log(versions[0][1]);
+flashLoader.addSource(versions[0][1]);
 flashLoader.load();
 ```
 

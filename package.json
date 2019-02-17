@@ -1,6 +1,6 @@
 {
-  "name": "flash-player-loader",
-  "version": "1.2.0",
+  "name": "flash-player-loader-extra",
+  "version": "1.2.0.1",
   "description": "Makes life easier for the electron apps which need the pepper flash player.",
   "main": "index.js",
   "directories": {
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alvin-777/flash-player-loader-for-electron.git"
+    "url": "git+https://github.com/Jinzy/flash-player-loader-extra-for-electron.git"
   },
   "keywords": [
     "pepper flash player",
@@ -25,12 +25,12 @@
     "electron"
   ],
   "author": {
-    "name": "Alvin",
-    "url": "https://github.com/alvin-777"
+    "name": "JinZY",
+    "url": "https://github.com/Jinzy"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alvin-777/flash-player-loader-for-electron/issues"
+    "url": "https://github.com/Jinzy/flash-player-loader-for-electron/issues"
   },
-  "homepage": "https://github.com/alvin-777/flash-player-loader-for-electron#readme"
+  "homepage": "https://github.com/Jinzy/flash-player-loader-for-electron#readme"
 }

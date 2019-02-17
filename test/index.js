@@ -29,6 +29,10 @@ var pathToDirContainsFlashPlayer = __dirname;
 flashLoader.addSource(pathToDirContainsFlashPlayer, '1.2.3.4');
 flashLoader.addSource('@system');
 flashLoader.addSource('@chrome');
+let versions = flashLoader.getAllChromeFlashVersions()
+console.log(versions[0][1])
+flashLoader.addSource(versions[0][1])
+
 flashLoader.load();
 
 chromeFlashes = flashLoader.getAllChromeFlashVersions();
